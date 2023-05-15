@@ -9,10 +9,6 @@ on:
       - '.lycheeignore'
   push:
     branches: [ main ]
-    paths:
-      - '**.md'
-      - 'docs/**'
-      - '.lycheeignore'
 
 jobs:
   linkChecker:
