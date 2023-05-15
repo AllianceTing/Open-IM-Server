@@ -26,7 +26,7 @@ fi
 
 #
 #printMessage "Running the Flutter analyzer"
-#flutter analyze
+#flutter analyze # OR analyse
 #
 #if [ $? -ne 0 ]; then
 #  printError "Flutter analyzer error"
