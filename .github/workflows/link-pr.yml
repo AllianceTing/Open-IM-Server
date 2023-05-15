@@ -8,7 +8,7 @@ on:
       - 'docs/**'
       - '.lycheeignore'
   push:
-    branches: [ main ]
+    branches: "*"
 
 jobs:
   linkChecker:
