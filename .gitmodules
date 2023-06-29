@@ -1,0 +1,3 @@
+[submodule "cmd/openim-sdk-core"]
+	path = cmd/openim-sdk-core
+	url = https://github.com/OpenIMSDK/openim-sdk-core.git
