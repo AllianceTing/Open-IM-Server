@@ -38,7 +38,7 @@ type ZkClient struct {
 	options []grpc.DialOption
 
 	resolvers    map[string]*Resolver
-	localConns   map[string][]resolver.Address
+	localConns   map[string][]resolver.Address //msg gateway
 	balancerName string
 
 	logger Logger

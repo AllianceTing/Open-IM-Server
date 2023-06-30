@@ -136,7 +136,7 @@ longConnSvr:
   websocketTimeout: 10                #websocket连接握手超时时间
 
 push:
-  enable: getui
+  enable: getui                       #选择个推离线推送
   geTui:                              #个推离线推送
     pushUrl: "https://restapi.getui.com/v2/$appId"
     masterSecret: ""
